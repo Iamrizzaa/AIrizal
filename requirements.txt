@@ -30,7 +30,7 @@ numpy==1.19.5
 oauthlib==3.2.0
 olefile==0.46
 opt-einsum==3.3.0
-opencv==3.3.1
+opencv-python
 Pillow==4.1.1
 protobuf==3.17.2
 pyasn1==0.4.8
