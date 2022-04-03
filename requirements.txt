@@ -50,7 +50,6 @@ urllib3==1.26.8
 Werkzeug==0.16.1
 wrapt==1.12.1
 ffmpeg
-yaml==0.2.5
 zipp==3.6.0
 zlib==1.2.11
 zstd==1.4.9
