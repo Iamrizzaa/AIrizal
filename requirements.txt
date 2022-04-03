@@ -43,7 +43,6 @@ scipy==1.5.2
 six==1.16.0
 tensorboard==1.10.0
 tensorflow==1.10.0
-tensorflow-base==1.10.0
 tensorflow-estimator==1.10.0
 termcolor==1.1.0
 typing-extensions==3.10.0.2
