@@ -24,7 +24,6 @@ jedi==0.17.0
 Jinja2==3.0.2
 Keras==2.2.4
 Keras-Applications==1.0.8
-
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
 markdown==3.3.4
@@ -32,7 +31,6 @@ markupSafe==2.0.1
 matplotlib==2.2.2
 mock==4.0.3
 numpy==1.19.5
-opencv==3.3.1 
 oauthlib==3.2.0
 olefile==0.46
 opt-einsum==3.3.0
