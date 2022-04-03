@@ -18,8 +18,7 @@ h5py==2.7.1
 idna==3.3                          
 importlib-metadata==4.8.1            
 importlib_metadata==4.8.1                
-imutils==0.4.6                        
-intel-openmp==2022.0.0          
+imutils==0.4.6                               
 ipykernel==5.3.4            
 ipython==7.16.1           
 ipython_genutils==0.2.0              
