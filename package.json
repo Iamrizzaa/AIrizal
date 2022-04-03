@@ -1,0 +1,23 @@
+{
+  "name": "airizal",
+  "version": "1.0.0",
+  "description": "package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iamrizzaa/AIrizal.git"
+  },
+  "keywords": [
+    "rizal",
+    "init"
+  ],
+  "author": "Rizza decastrorizza7@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iamrizzaa/AIrizal/issues"
+  },
+  "homepage": "https://github.com/Iamrizzaa/AIrizal#readme"
+}
