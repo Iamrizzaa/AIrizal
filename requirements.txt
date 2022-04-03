@@ -10,8 +10,7 @@ click==8.0.3
 cloudpickle==2.0.0              
 colorama==0.4.4                                 
 entrypoints==0.3                      
-flask==0.12.2           
-freetype==2.8                  
+flask==0.12.2                        
 gast==0.5.3              
 grpcio==1.36.1           
 gunicorn==19.7.1                       
