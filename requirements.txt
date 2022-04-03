@@ -1,4 +1,4 @@
-_tflow_select==2.1.0                       
+                      
 absl-py==0.15.0             
 argon2-cffi==20.1.0           
 astor==0.8.1            
