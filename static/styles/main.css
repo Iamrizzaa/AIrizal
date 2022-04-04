@@ -90,16 +90,18 @@ nav .nav-links ul a:hover{
   border-radius: 10px;
   border: solid black 1px;
   width: 100%;
-  height: 100vh;
+  height: 180vh;
 }
 .lndmrk .rcg .tool .container .imgup{
   margin-top: 5vh;
+  text-align:center;
 
 }
 .lndmrk .rcg .tool .container .imgup1{
-  width: 80vh;
+  width: 50vh;
   display: flex;
   flex-direction: column;
+  text-align:center;
 
 }
 
