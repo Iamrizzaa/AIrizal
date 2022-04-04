@@ -167,7 +167,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.route("/")
 def template_test():
-    return render_template('template.html', label='',name='', imagesource='../static/styles/images/banner.jpg')
+    return render_template('template.html', label='',name='', imagesource='../uploads/banner.jpg')
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -301,7 +301,7 @@ def upload_file():
 
             os.rename(file_path, os.path.join(app.config['UPLOAD_FOLDER'], filename))
             print("--- %s seconds ---" % str (time.time() - start_time))
-            return render_template('template.html', label=label,name=name, imagesource='../static/styles/images/' + filename)
+            return render_template('template.html', label=label,name=name, imagesource='../uploads/' + filename)
 
 
 from flask import send_from_directory
