@@ -85,26 +85,3 @@ model.save('./models/model.h5')
 model.save_weights('./models/weights.h5')
 
 
-import pandas as pd
-import numpy as np
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-
-
-plt.plot (hist.history['loss'], color = 'blue', label = 'train')
-plt.plot (hist.history['val_loss'], color = 'orange', label = 'train')
-plt.grid(True)
-plt.title("Train & test loss with epochs\n", fontsize = 16)
-plt.xlabel ("Training epochs", fontsize=12)
-plt.ylabel ("Train & test loss", fontsize=12)
-plt.show()
-
-plt.plot (hist.history['acc'], color = 'blue', label = 'train')
-plt.plot (hist.history['val_acc'], color = 'orange', label = 'train')
-plt.grid(True)
-plt.title("Train & test accuracy with epochs\n", fontsize=16)
-plt.xlabel ("Training epochs", fontsize=12)
-plt.ylabel ("Train & test loss", fontsize=12)
-plt.show()
-
