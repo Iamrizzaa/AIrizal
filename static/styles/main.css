@@ -94,14 +94,13 @@ nav .nav-links ul a:hover{
 }
 .lndmrk .rcg .tool .container .imgup{
   margin-top: 5vh;
-  text-align:center;
+  
 
 }
 .lndmrk .rcg .tool .container .imgup1{
   width: 50vh;
   display: flex;
   flex-direction: column;
-  text-align:center;
 
 }
 
