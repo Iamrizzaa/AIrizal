@@ -42,109 +42,109 @@ def predict(file):
       print("Label: Antipolo Cathedral")
       print("Name: https://wonderfilledjournal.com/2016-tanay-rizal-calinawan-cave/")
     elif answer == 1:
-      print("Label: Bulawan Floating Restaurant")
+      print("Label: Bulawan Floating Restaurant in Pililia")
       print("Name: https://wonderfilledjournal.com/2016-tanay-rizal-daranak-falls-batlag-falls/")
     elif answer == 2:
-      print("Label: Celossian Flower Farm")
+      print("Label: Celossian Flower Farm in Baras")
       print("Name: https://wonderfilledjournal.com/2016-tanay-rizal-daranak-falls-batlag-falls/")
     elif answer == 3:
-      print("Label: Cloud 9")
+      print("Label: Cloud 9 in Antipolo")
       print("Name: Ito ay ang Hapunang Banoi sa Rizal")
     elif answer == 4:
-      print("Label: Coffee Rush")
+      print("Label: Coffee Rush in Binangonan")
       print("Name: Ito ay ang Kinabuan Falls sa Rizal")
     elif answer == 5:
-      print("Label: Daraitan")
-      print("Name: Ito ay ang Mt. Lagyo sa Rizal")
+      print("Label: Daraitan ")
+      print("Name: Ito ay ang Mt. lol sa Rizal")
     elif answer == 6:
       print("Label: Daranak")
       print("Name: Ito ay ang Mt. Oro sa Rizal")
     elif answer == 7:
-      print("Label: Dinasaur Park")
+      print("Label: Dinasaur Park in Binangonan")
       print("Name: Ito ay ang Mystical Cave sa Riza")
     elif answer == 8:
-      print("Label: Diocesan Shrine of Our Lady of Arazanzu")
+      print("Label: Diocesan Shrine of Our Lady of Arazanzu in San Mateo")
       print("Name: Ito ay ang Palo Alto sa Rizal")
     elif answer == 9:
-      print("Label: Jardin De Miramar")
+      print("Label: Jardin De Miramar in Antipolo")
       print("Name: https://www.celineism.com/2016/05/tongtong-falls-tanay-rizal-photos.html")
     elif answer == 10:
-      print("Label: Kasarinlan Park")
+      print("Label: Kasarinlan Park in Baras")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 11:
-      print("Label: Lakeside Park")
+      print("Label: Lakeside Park in Angono")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
-    elif answer == 13:
-      print("Label: Marian Hill")
+    elif answer == 12:
+      print("Label: Marian Hill in Binangonan")
       print("Name: https://www.celineism.com/2016/05/tongtong-falls-tanay-rizal-photos.html")
+    elif answer == 13:
+      print("Label: Masungi Georeserve in Baras")
+      print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 14:
-      print("Label: Masungi Georeserve")
+      print("Label: Mount Calvary in Binangonan")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 15:
-      print("Label: Mount Calvary")
+      print("Label: Our Lady of Light in Cainta")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 16:
-      print("Label: Our Lady of Light")
-      print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
-    elif answer == 18:
-      print("Label: Our Lady of the Holy Rosary")
+      print("Label: Our Lady of the Holy Rosary in Cardona")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 17:
-      print("Label: Our Lady of the Most Holy Rosary")
+      print("Label: Our Lady of the Most Holy Rosary in Montalban")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 18:
-      print("Label: Light House (Parola)")
+      print("Label: Light House (Parola) in Tanay")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 19:
-      print("Label: Petroglyphs")
+      print("Label: Petroglyphs in Angono")
       print("Name: https://www.celineism.com/2016/05/tongtong-falls-tanay-rizal-photos.html")
     elif answer == 20:
-      print("Label: Pinto Art Museum")
+      print("Label: Pinto Art Museum in Antipolo")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 21:
-      print("Label: Puente Del Diablo")
+      print("Label: Puente Del Diablo in Binangonan")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 22:
-      print("Label: Rambulls Bakahan")
+      print("Label: Rambulls Bakahan in Tanay")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 23:
-      print("Label: Regina Rica")
+      print("Label: Regina Rica in Tanay")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 24:
-      print("Label: Rock Garden")
+      print("Label: Rock Garden in Cardona")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 25:
-      print("Label: Saint Joseph Parish Church")
+      print("Label: Saint Joseph Parish Church in Baras")
       print("Name: https://www.celineism.com/2016/05/tongtong-falls-tanay-rizal-photos.html")
     elif answer == 26:
-      print("Label: Saint Clement Parish Church")
+      print("Label: Saint Clement Parish Church in Angono")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 27:
-      print("Label: Saint Jerome Parish Church")
+      print("Label: Saint Jerome Parish Church in Morong")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 28:
-      print("Label: Saint Mary Magdalene Parish Church")
+      print("Label: Saint Mary Magdalene Parish Church in Pililia")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 29:
-      print("Label: Saint Rose of Lima Parish Church")
+      print("Label: Saint Rose of Lima Parish Church in Teresa")
       print("Name: https://www.celineism.com/2016/05/tongtong-falls-tanay-rizal-photos.html")
     elif answer == 30:
-      print("Label: San Idelfonso Parish Church")
+      print("Label: San Idelfonso Parish Church in Tanay")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 31:
-      print("Label: Saint John Parish Church")
+      print("Label: Saint John Parish Church in Taytay")
       print("Name: https://www.celineism.com/2016/05/tongtong-falls-tanay-rizal-photos.html")
     elif answer == 32:
-      print("Label: Sta Ursula Parish Church")
+      print("Label: Sta Ursula Parish Church in Binangonan")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 33:
-      print("Label: Tungtong Falls")
+      print("Label: Tungtong Falls in Tanay")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 34:
-      print("Label: Wawa Dam")
+      print("Label: Wawa Dam in Montalban")
       print("Name: https://www.wander.am/travel/manila-74/places/wawa-dam-80919.en.html")
     elif answer == 35:
-      print("Label: Pililia Windmill")
+      print("Label: Pililia Wind Farm")
       print("Name: https://www.celineism.com/2016/05/tongtong-falls-tanay-rizal-photos.html")
 
       
@@ -190,109 +190,109 @@ def upload_file():
               label = 'Antipolo Cathedral'
               name = ''
             elif result == 1:
-              label = 'Bulawan Floating Restaurant'
+              label = 'Bulawan Floating Restaurant in Pililia'
               name = ''
             elif result == 2:
-              label = 'Celossian Flower Farm'
+              label = 'Celossian Flower Farm in Baras'
               name = ''
             elif result == 3:
-              label = 'Cloud 9'
+              label = 'Cloud 9 in Antipolo'
               name = ''
             elif result == 4:
-              label = 'Coffee Rush'
+              label = 'Coffee Rush in Binangonan'
               name = ''
             elif result == 5:
-              label = 'Daraitan'
+              label = 'Daraitan River in Tanay'
               name = ''
             elif result == 6:
-              label = 'Daranak'
+              label = 'Daranak Falls in Tanay'
               name = ''
             elif result == 7:
-              label = 'Dinasaur Park'
+              label = 'Dinasaur Park in Binangonan'
               name = ''
             elif result == 8:
-              label = 'Diocesan Shrine of Our Lady of Arazanzu'
+              label = 'Diocesan Shrine of Our Lady of Arazanzu in San Mateo'
               name = ''
             elif result == 9:
-              label = 'Jardin De Miramar'
+              label = 'Jardin De Miramar in Antipolo'
               name = ''
             elif result == 10:
-              label = 'Kasarinlan Park'
+              label = 'Kasarinlan Park in Baras'
               name = ''
             elif result == 11:
-              label = 'Lakeside Park'
+              label = 'Lakeside Park in Angono'
               name = ''
             elif result == 12:
-              label = 'Marian Hill'
+              label = 'Marian Hill in Binangonan'
               name = ''
             elif result == 13:
-              label = 'Masungi Georeserve'
+              label = 'Masungi Georeserve in Baras'
               name = ''
             elif result == 14:
-              label = 'Mount Calvary'
+              label = 'Mount Calvary in Binangonan'
               name = ''
             elif result == 15:
-              label = 'Our Lady of Light'
+              label = 'Our Lady of Light in Cainta'
               name = ''
             elif result == 16:
-              label = 'Our Lady of the Holy Rosary'
+              label = 'Our Lady of the Holy Rosary in Cardona'
               name = ''
             elif result == 17:
-              label = 'Our Lady of the Most Holy Rosary'
+              label = 'Our Lady of the Most Holy Rosary in Montalban'
               name = ''
             elif result == 18:
-              label = 'Light House (Parola)'
+              label = 'Light House (Parola) in Tanay'
               name = ''
             elif result == 19:
-              label = 'Petroglyphs'
+              label = 'Petroglyphs in Angono'
               name = ''
             elif result == 20:
-              label = 'Pinto Art Museum'
+              label = 'Pinto Art Museum in Antipolo'
               name = ''
             elif result == 21:
-              label = 'Puente Del Diablo'
+              label = 'Puente Del Diablo in Binangonan'
               name = ''
             elif result == 22:
-              label = 'Rambulls Bakahan'
+              label = 'Rambulls Bakahan in Tanay'
               name = ''
             elif result == 23:
-              label = 'Regina Rica'
+              label = 'Regina Rica in Tanay'
               name = ''
             elif result == 24:
-              label = 'Rock Garden'
+              label = 'Rock Garden in Cardona' 
               name = ''
             elif result == 25:
-              label = 'Saint Joseph Parish Church'
+              label = 'Saint Joseph Parish Church in Baras'
               name = ''
             elif result == 26:
-              label = 'Saint Clement Parish Church'
+              label = 'Saint Clement Parish Church in Angono'
               name = ''
             elif result == 27:
-              label = 'Saint Jerome Parish Church'
+              label = 'Saint Jerome Parish Church in Morong'
               name = ''
             elif result == 28:
-              label = 'Saint Mary Magdalene Parish Church'
+              label = 'Saint Mary Magdalene Parish Church in Pililia'
               name = ''
             elif result == 29:
-              label = 'Saint Rose of Lima Parish Church'
+              label = 'Saint Rose of Lima Parish Church in Teresa'
               name = ''
             elif result == 30:
-              label = 'San Idelfonso Parish Church'
+              label = 'San Idelfonso Parish Church in Tanay'
               name = ''
             elif result == 31:
-              label = 'Saint John Parish Church'
+              label = 'Saint John Parish Church in Taytay'
               name = ''
             elif result == 32:
-              label = 'Sta Ursula Parish Church'
+              label = 'Sta Ursula Parish Church in Binangonan'
               name = ''
             elif result == 33:
-              label = 'Tungtong Falls'
+              label = 'Tungtong Falls in Taytay'
               name = ''
             elif result == 34:
-              label = 'Wawa Dam'
+              label = 'Wawa Dam in Montalban'
               name = ''
             elif result == 35:
-              label = 'Pililia Windmill'
+              label = 'Pililia Wind Farm'
               name = ''
 
             print(result)
