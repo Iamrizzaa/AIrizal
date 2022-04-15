@@ -318,6 +318,39 @@ app.wsgi_app = SharedDataMiddleware(app.wsgi_app, {
     '/uploads':  app.config['UPLOAD_FOLDER']
 })
 
+@app.route('/Home')
+def home():
+   return render_template('home.html')
+
+@app.route('/Cycling')
+def activities():
+   return render_template('activities.html')
+
+@app.route('/Destinations')
+def destinations():
+   return render_template('destinations.html')
+
+@app.route('/Tool')
+def tool():
+   return render_template('index.html')
+
+@app.route('/Contact')
+def contact():
+   return render_template('contact.html')
+
+@app.route('/Hiking')
+def activity1():
+   return render_template('activitiesh.html')
+
+@app.route('/Foodtrips')
+def activity2():
+   return render_template('activitiesf.html')
+
+@app.route('/Routes')
+def activity3():
+   return render_template('activitiesr.html')
+        
+
 
 if __name__ == "__main__":
     app.debug = False
