@@ -351,8 +351,9 @@ def activity3():
    return render_template('activitiesr.html')
         
 
-
+from waitress 
+import serve
 if __name__ == "__main__":
     app.debug = False
-    app.run()
+    serve(app) 
 
