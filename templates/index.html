@@ -1,0 +1,107 @@
+<html>
+<title>Dito Sa Rizal</title>
+<!-- stylesheets -->
+<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<link href="{{ url_for('static', filename='styles/main.css')}}" type= "text/css" rel="stylesheet">
+
+<body>
+<nav>
+  <div class="box1"></div>
+
+  <div class="box2">
+    <div class="logo">
+      <div class="logo1">
+        <img src="{{url_for('static',filename='styles/images/logo.png')}}" class="img-fluid" alt="...">
+      </div>
+      <div class="txt"><h3>Dito sa Rizal</h3></div>
+    </div>
+    <div></div>
+    <div class="nav-links">
+      <ul>
+        <a href="{{url_for('home')}}"><li>Home</li></a>
+        <a href="{{url_for('activities')}}"><li>Activities</li></a>
+        <a href="{{url_for('destinations')}}"><li>Destinations</li></a>
+        <a href="{{url_for('tool')}}"><li class="activeTools">Tools</li></a>
+        <a href="{{url_for('contact')}}"><li>Contact</li></a>
+      </ul>
+    </div>
+
+  </div>
+  <div class="box1"></div>
+</nav>
+
+
+
+<main class="lndmrk">
+  <div class="rcg">
+  <div class="box1"></div>
+
+  <div class="tool">
+    <div class="container">
+ 
+      <div class="process">
+        <h1><center>Landmark Recognition Tool</center></h1>
+        <p><center>Dito sa Rizal's Landmark Recognition Tool can recognize popular landmarks from Rizal with the purpose of eliminating time consuming search of unknown locations.
+
+          We also have a list of popular tourist <a href="#">destinations</a> that might interest you.
+          Feel free to explore our website and fill your mind with beautiful and amazing places located around Rizal.</center></p>
+        <p><center><br><br><B>How it works?</B></center</p>
+        <div class="how">
+          <div class="card">
+            <div class="card-body">
+              <i class='bx bx-image-add' ></i>
+              <p class="card-text">Upload your image</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <i class='bx bx-search'></i>
+              <p class="card-text">We will search the landmark for you</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <i class='bx bx-check-circle' ></i>
+              <p class="card-text">Done! Easy peasy. No hassle!
+                </p>
+            </div>
+          </div>
+          
+
+        </div>
+        <div class="imgup">
+          <h2>Upload your image</h2>       
+          <form class="imgup1" action="" method=post enctype=multipart/form-data>
+            
+            <input class="choose" type="file" name="file" accept="image/png, image/jpeg" style="cursor: pointer;"/>
+            <input class="sub" type="submit" value="Upload">
+
+          </form>
+        
+        <div class="results">
+        <h2>Results</h2>
+        <br>
+        <table class="table" id="results-table">
+            <tr>
+              <th>Image</th>
+              <th>Prediction</th>
+            </tr>
+            <tr>
+              {% block content %}
+              
+              {% endblock %}
+            </tr>
+        </table>
+      </div>
+    </div>
+      </div>
+     
+    </div>
+  </div>
+
+ 
+</main>
+
+</body>
+</html>

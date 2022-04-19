@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dito sa Rizal</title>
+    <!--bootstrap-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+<body>
+  <!--navbar-->
+  <nav>
+    <div class="box1"></div>
+
+    <div class="box2">
+      <div class="logo">
+        <div class="logo1">
+          <img src="{{url_for('static',filename='styles/images/logo.png')}}">
+        </div>
+        <div class="txt"><h3>Dito sa Rizal</h3></div>
+      </div>
+      <div></div>
+      <div class="nav-links">
+        <ul>
+        <a href="{{url_for('home')}}"><li class="activeHome">Home</li></a>
+        <a href="{{url_for('activities')}}"><li>Activities</li></a>
+        <a href="{{url_for('destinations')}}"><li>Destinations</li></a>
+        <a href="{{url_for('tool')}}"><li>Tools</li></a>
+        <a href="{{url_for('contact')}}"><li>Contact</li></a>
+        </ul>
+      </div>
+
+    </div>
+    <div class="box1"></div>
+  </nav>
+<!--content-->
+
+  <main>
+    <!--banner-->
+    <div class="head">
+      <div class="box2">
+      </div>
+    </div>
+    <!--content-->
+    <div class="feat">
+      <div class="featured">
+          <div class="box1"></div>
+
+          <div class="box2">
+              <div class="head">
+                <h3>Enjoy wonderful experiences in Rizal Province</h3>
+                <p>Rizal Province is a place where you can reconnect with nature while still enjoying the finest aspects of city life. From the steep mountains of Montalban and Antipolo down to the gorgeous coastline of Laguna de Bay, lush hills and undulating valleys stretch. In the middle of rolling hills, lakeshores, caverns, and waterfalls, the terrain offers fascinating chances for biking, mountain climbing, and camping.</p>
+                Interactive Map<div class="mapouter"><div class="gmap_canvas"><iframe width="900" height="650" id="gmap_canvas" src="https://maps.google.com/maps?q=Rizal&t=k&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123 movies</a><br><style>.mapouter{position:relative;text-align:right;height:650px;width:900px;}</style><a href="https://www.embedgooglemap.net">create a map with google maps</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:650px;width:900px;}</style></div></div>
+              </div>
+             
+              <div class="cards">
+                  
+                
+                <div class="lmrkrcg">
+                  <h1>Featured</h1>
+                  
+                    <div class="card" style="width: 100%;">
+                      <div class="card-body">
+                        <h5 class="card-title">Landmark Recognition Tool</h5>
+                        <p class="card-text">Have you ever looked at a photo and say "hey this is pretty, i wonder where it was taken?" we've got you covered!</p>
+                        <p class="card-text">Save yourself from browsing the internet looking for answers. Using our landmark recognition tool, we will eliminate the time consuming search in just one click..</p>
+                        <a href="#" class="btn">Try it out!</a>
+                      </div>
+                    </div>
+                    
+                    <div class="activities">
+                        
+                      <div class="actcard">
+                        <div class="card-body">
+                          <h5 class="card-title">Cycling</h5>
+                          <p class="card-text">Very accesible from Metro Manila with many uphill battles with rocky roads, but it is time well spent for the view, especially if you ride early in the morning when there are less people. Mountain bikes are the ideal choice for terrain conditions in order to avoid injury. </p>
+                          <a href="activities.html"><i class='bx bx-right-arrow-circle'></i></a>
+                        </div>
+      
+                        <div class="card-body">
+                          <h5 class="card-title">Hiking</h5>
+                          <p class="card-text">The mountains of Rizal are one of the reasons for its fame. Some are beginner-friendly, making them ideal day getaways from Metro Manila or neighboring provinces and cities. It's also a convenient venue to get to, whether you're via private or public transit.</p>
+                          <a href="activitiesh.html"><i class='bx bx-right-arrow-circle'></i></a>
+                        </div>
+
+                        <div class="card-body">
+                          <h5 class="card-title">Foodtrips</h5>
+                          <p class="card-text">If you're putting together your post-pandemic gastronomy bucket list, here are some of the best cafes and restaurants we can all enjoy without having to travel too far from the metro. Rizal is unquestionably the spot to visit. The restaurants listed here are some of the best in Rizal.</p>
+                          <a href=""><i class='bx bx-right-arrow-circle'></i></a>
+                        </div>
+
+                        <div class="card-body">
+                          <h5 class="card-title">Scenic Routes</h5>
+                          <p class="card-text">You might want to indulge yourself to a couple more weekend excursions before the season comes to an end. Fill up your gas tank, contact your buddies, and start listening to your Spotify playlist because there's still time to drive to the far corners of the Rizal.</p>
+                          <a href=""><i class='bx bx-right-arrow-circle'></i></a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <!--Carousel-->
+                <div class="car">
+                  <h3>Must Visit</h3>
+                  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href=""><img src="static/styles/images/Antipolo/Antipolo Cathedral/Antipolo Cathedral.jpg" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Antipolo</h5>
+                          <p>A first-class component city and the capital of the Rizal province. </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href=""><img src="static/styles/images/Tanay/Mt.Batolusong/2.jpg" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Tanay</h5>
+                          <p>Explore the amazing landscape of Tanay</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href=""><img src="static/styles/images/Angono/Higantes.jfif" class="d-block w-100" alt="..."></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Angono</h5>
+                          <p>The Art Capital of the Philippines</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                </div>
+                
+                
+              </div>
+            </div>
+            
+            <div class="box3"></div>           
+          </div>         
+        </div>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+</body>
+</html>

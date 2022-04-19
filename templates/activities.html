@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dito sa Rizal</title>
+    <!--bootstrap-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+<body>
+  <!--navbar-->
+  <nav>
+    <div class="box1"></div>
+
+    <div class="box2">
+      <div class="logo">
+        <div class="logo1">
+          <img src="static/styles/images/logo.png">
+        </div>
+        <div class="txt"><h3>Dito sa Rizal</h3></div>
+      </div>
+      <div></div>
+      <div class="nav-links">
+        <ul>
+        <a href="{{url_for('home')}}"><li>Home</li></a>
+        <a href="{{url_for('activities')}}"><li>Activities</li></a>
+        <a href="{{url_for('destinations')}}"><li>Destinations</li></a>
+        <a href="{{url_for('tool')}}"><li class="activeTools">Tools</li></a>
+        <a href="{{url_for('contact')}}"><li>Contact</li></a>
+        </ul>
+      </div>
+
+    </div>
+    <div class="box1"></div>
+  </nav>
+<!--content-->
+
+  <main class="act">
+    <div class="activities">
+    <div class="box1"></div>
+    <div class="box2">
+      <div class="navigation">
+        <ul>
+          <a href="{{url_for('activities')}}"><li  class="activeCy">Cycling</li></a>
+          <a href="{{url_for('activity1')}}"><li>Hiking</li></a>
+          <a href="{{url_for('activity2')}}"><li>Foodtrips</li></a>
+          <a href="{{url_for('activity3')}}"><li>Scenic<br>Routes</li></a>
+        </ul>
+      </div>
+      <div class="title">
+        <h1>Top 5 Cycling Routes in Rizal Province</h1>
+        <p>Do you enjoy taking on new challenges? Do you want to branch out and try something new? Check out our selection of Rizal's greatest cycling routes. Some of these may not be suitable for beginners, but they will certainly reward you with breathtaking sights of nature.</p>
+        <img src="static/styles/images/bike.jpg" />
+      </div>
+      <div class="num">
+        <h3>1. Pililia Climb to Windmill Farm Deck, Pililia</h3>
+        <p>This road leads to the Pililla Wind Farm, a 54 megawatt power complex comprised of 27 125-meter-tall wind turbines. Because of the views of Laguna De Bay and, of course, the high winds, it has become a tourist magnet for the area. Views of undulating hills, pastures, and the lake may be seen from the wind farm's vantage point.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d17385.036949497615!2d121.33673778854988!3d14.465066907223006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e2!4m4!1s0x3397e953e9b59aa7%3A0x921dc22e7f8ada18!3m2!1d14.4637997!2d121.32598899999999!4m5!1s0x3397e955da83502d%3A0x69d3713f197e8ba9!2sF8CX%2BRJ2%20Windmill%20Farm%20View%20Deck%2C%20Pililla%2C%20Rizal!3m2!1d14.4720129!2d121.3490235!5e1!3m2!1sen!2sph!4v1647186424866!5m2!1sen!2sph" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="num">
+        <h3>2. Cainta- Antipolo - Morong Loop </h3>
+        <p>If you are a seasoned biker, this 46.9-kilometer circuit is ideal for you. To survive the high climbs and undulating hills on this route, you'll need an extremely fit body. The difficulty increases if you choose the Cainta to Morong to Antipolo route due of the never-ending ascent, which is not suitable for beginners.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m50!1m12!1m3!1d61908.50231164305!2d121.16669923724993!3d14.53402045931537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m35!3e0!4m4!1s0x3397c7653c662633%3A0xf54ea1c7e35ecd8b!3m2!1d14.582222199999999!2d121.1291667!4m5!1s0x3397bf53fd15d2b1%3A0xa23619ce8136cfc6!2sAntipolo%20Cathedral%2C%20Dela%20Paz%20Street%2C%20Antipolo%2C%20Rizal!3m2!1d14.587638!2d121.17665649999999!4m4!1s0x3397c1aa5dcd522b%3A0xcbfbfb6b763b1887!3m2!1d14.5240697!2d121.23998259999999!4m5!1s0x3397c3eb924f5425%3A0xe8d19861cf0cdfc5!2sBinangonan!3m2!1d14.4765477!2d121.195743!4m3!3m2!1d14.532709899999999!2d121.1519838!4m3!3m2!1d14.5768604!2d121.1431063!4m3!3m2!1d14.5823088!2d121.1292488!5e1!3m2!1sen!2sph!4v1647190814256!5m2!1sen!2sph" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="num">
+        <h3>3. Quarry Road to Antipolo Cathedral </h3>
+        <p>If the previous routes are for seasoned riders, this one is for climbers in training. This route begins in Pantok, Binangonan and continues uphill till it reaches the Madrigal Overlooking. If you feel up to it, you can continue climbing to Antipolo Cathedral for a total of 13.6 Kilometers. Because of the lack of street lights on Quarry Road, this route is not advised for night rides. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m33!1m12!1m3!1d61908.74387119677!2d121.14579266984276!3d14.533158099629963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m18!3e0!4m4!1s0x3397c3fc90b3d0fd%3A0xf212a435820102ec!3m2!1d14.4943923!2d121.1807726!4m5!1s0x3397c1447f446a09%3A0x24fd13a063953c5f!2s1933-1964%20Quarry%20Rd%2C%20Binangonan%2C%20Rizal!3m2!1d14.510686199999999!2d121.1882272!4m5!1s0x3397bf53fd15d2b1%3A0xa23619ce8136cfc6!2sAntipolo%20Cathedral%2C%20Dela%20Paz%20Street%2C%20Antipolo%2C%20Rizal!3m2!1d14.587638!2d121.17665649999999!5e1!3m2!1sen!2sph!4v1647194965126!5m2!1sen!2sph" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="num">
+        <h3>4. Sierra Madre Loop </h3>
+        <p>This loop is located in the Sierra Madre mountain range, as the name implies. This route, which begins on Marcos Highway and ends in Morong Rizal, is full of uphill fights. This route is only advised for experienced riders, and you should have your own tools and money in case anything goes wrong throughout the 100-kilometer loop. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m52!1m12!1m3!1d146712.23111307784!2d121.1861709259481!3d14.559875881410935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m37!3e0!4m3!3m2!1d14.6253923!2d121.12550399999999!4m3!3m2!1d14.628746!2d121.2337302!4m3!3m2!1d14.597886299999999!2d121.35080719999999!4m3!3m2!1d14.5313345!2d121.334702!4m3!3m2!1d14.5215651!2d121.23958789999999!4m3!3m2!1d14.4848919!2d121.18677579999999!4m3!3m2!1d14.560052299999999!2d121.136496!4m3!3m2!1d14.5830491!2d121.12659409999999!4m3!3m2!1d14.6254259!2d121.1246268!5e1!3m2!1sen!2sph!4v1647196300782!5m2!1sen!2sph" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="num">
+        <h3>5. UP Diliman to Wawa Dam Mountain Route, Rodriguez</h3>
+        <p>Wawa Dam in Rodriguez, Rizal is a popular weekend destination for Manila-based mountain bikers. If you enjoy riding your bike on trails, consider visiting Wawa Dam, which requires cycling via a mountain route and many river crossings. Because of the trails, you should ride a mountain bike. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m42!1m8!1m3!1d36782.322156519!2d121.18408233911438!3d14.70530273048335!3m2!1i1024!2i768!4f13.1!4m31!3e0!4m5!1s0x3397b76e0a414405%3A0x1c2a97897bd895eb!2sUniversity%20of%20the%20Philippines%20Diliman%2C%20Roxas%20Ave%2C%20Diliman%2C%20Quezon%20City%2C%20Metro%20Manila!3m2!1d14.6538817!2d121.0685049!4m5!1s0x3397b9ba392a68cd%3A0xe3cdf53b2d4ce4ca!2sTumana%20Bridge%2C%201800%20Tumana%20Bridge%2C%20Marikina%2C%201800%20Metro%20Manila!3m2!1d14.656519699999999!2d121.09605889999999!4m5!1s0x3397b96d98d2f263%3A0x9425805bc59fd3eb!2sMonterey%20Hills%20Clubhouse%2C%20Delos%20Santos%20Ave%2C%20San%20Mateo%2C%20Rizal!3m2!1d14.652137999999999!2d121.13890699999999!4m5!1s0x3397bc03d0b4419d%3A0x5da92bccd6767edd!2sKa%20Vergel%20Store%2C%20AFP%20-%20Pesta%C3%B1o%20Farm%20Trail%2C%20Antipolo%2C%20Rizal!3m2!1d14.667639699999999!2d121.1772232!4m5!1s0x3397bcf8b1f6a4db%3A0x8170b0ddb4847325!2sCasili%20Elementary%20School%20Rodriguez%20Rizal%2C%20P626%2BJ7X%2C%20Antipolo%2C%20Rizal!3m2!1d14.7016937!2d121.21068009999999!5e1!3m2!1sen!2sph!4v1647276504245!5m2!1sen!2sph" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="box3"></div>
+    </div>
+    
+  </div>
+  <div class="box3"></div>
+  </div>
+   
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+</body>
+</html>

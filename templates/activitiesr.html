@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dito sa Rizal</title>
+    <!--bootstrap-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+<body>
+  <!--navbar-->
+  <nav>
+    <div class="box1"></div>
+
+    <div class="box2">
+      <div class="logo">
+        <div class="logo1">
+          <img src="static/styles/images/logo.png">
+        </div>
+        <div class="txt"><h3>Dito sa Rizal</h3></div>
+      </div>
+      <div></div>
+      <div class="nav-links">
+        <ul>
+          <a href="{{url_for('home')}}"><li>Home</li></a>
+        <a href="{{url_for('activities')}}"><li>Activities</li></a>
+        <a href="{{url_for('destinations')}}"><li>Destinations</li></a>
+        <a href="{{url_for('tool')}}"><li class="activeTools">Tools</li></a>
+        <a href="{{url_for('contact')}}"><li>Contact</li></a>
+        </ul>
+      </div>
+
+    </div>
+    <div class="box1"></div>
+  </nav>
+<!--content-->
+
+  <main class="act">
+    <div class="activities">
+    <div class="box1"></div>
+    <div class="box2">
+      <div class="navigation">
+        <ul>
+          <a href="{{url_for('activities')}}"><li>Cycling</li></a>
+          <a href="{{url_for('activity1')}}"><li>Hiking</li></a>
+          <a href="{{url_for('activity2')}}"><li>Foodtrips</li></a>
+          <a href="{{url_for('activity3')}}"><li  class="activeR">Scenic<br>Routes</li></a>
+        </ul>
+      </div><br><br>
+      <h1><center>While on a road trip, there are several routes that you can take to experience the breathtaking scenery of nature.</center> </h1>
+      <p>Do you want to view Rizal in its entirety? Take Ortigas Avenue until Taytay Diversion Road is reached. Continue on this road until you reach Manila East Road. Other Rizal municipalities you'll pass through are Cainta, Antipolo, Teresa, Morong, Baras, Tanay, and Pililia. You can visit Taytay, Angono, Binangonan, and Cardona by taking a different route.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d103928.9415922297!2d121.2341699526758!3d14.525832602569908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3397b87f701edd6b%3A0xe1c1fe496d818869!2sCainta%2C%20Rizal!3m2!1d14.5864844!2d121.114876!4m5!1s0x3397e955da83502d%3A0x69d3713f197e8ba9!2sF8CX%2BRJ2%20Windmill%20Farm%20View%20Deck%2C%20Pililla%2C%20Rizal!3m2!1d14.4720129!2d121.3490235!5e0!3m2!1sen!2sph!4v1649246005691!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+      </div>
+    </div>
+    <div class="box3"></div>
+    </div>
+    
+  </div>
+  <div class="box3"></div>
+  </div>
+    
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+</body>
+</html>
